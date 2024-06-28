@@ -5,13 +5,12 @@
 ## make
 ##
 
-MAKEFLAGS += --silent
-
 RM		=	rm -f
 
 GEN		=	generator/
 
 SOL		=	solver/
+
 all:
 	$(MAKE) -C $(GEN)
 	$(MAKE) -C $(SOL)
